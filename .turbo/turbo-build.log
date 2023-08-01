@@ -1,0 +1,37 @@
+$ vite build
+
+vite v4.4.7 building SSR bundle for production...
+transforming...
+✓ 72 modules transformed.
+rendering chunks...
+
+vite v4.4.7 building for production...
+transforming...
+✓ 61 modules transformed.
+rendering chunks...
+computing gzip size...
+.svelte-kit/output/client/_app/version.json                              0.03 kB │ gzip: 0.05 kB
+.svelte-kit/output/client/vite-manifest.json                             2.13 kB │ gzip: 0.40 kB
+.svelte-kit/output/client/_app/immutable/nodes/0.c3857e1f.js             0.60 kB │ gzip: 0.38 kB
+.svelte-kit/output/client/_app/immutable/nodes/2.ce583c9c.js             0.69 kB │ gzip: 0.45 kB
+.svelte-kit/output/client/_app/immutable/nodes/1.a440f520.js             1.03 kB │ gzip: 0.59 kB
+.svelte-kit/output/client/_app/immutable/chunks/scheduler.e108d1fd.js    2.16 kB │ gzip: 1.02 kB
+.svelte-kit/output/client/_app/immutable/chunks/singletons.fb1a09ad.js   2.86 kB │ gzip: 1.46 kB
+.svelte-kit/output/client/_app/immutable/chunks/index.0719bd3d.js        5.44 kB │ gzip: 2.31 kB
+.svelte-kit/output/client/_app/immutable/entry/app.f3c0eb82.js           5.82 kB │ gzip: 2.30 kB
+.svelte-kit/output/client/_app/immutable/entry/start.5aa6bebd.js        24.06 kB │ gzip: 9.54 kB
+✓ built in 480ms
+.svelte-kit/output/server/vite-manifest.json                   1.33 kB
+.svelte-kit/output/server/internal.js                          0.19 kB
+.svelte-kit/output/server/entries/fallbacks/layout.svelte.js   0.24 kB
+.svelte-kit/output/server/entries/pages/_page.svelte.js        0.37 kB
+.svelte-kit/output/server/entries/fallbacks/error.svelte.js    0.89 kB
+.svelte-kit/output/server/chunks/ssr.js                        3.35 kB
+.svelte-kit/output/server/chunks/internal.js                   5.40 kB
+.svelte-kit/output/server/index.js                            89.05 kB
+
+Run npm run preview to preview your production build locally.
+
+> Using @sveltejs/adapter-node
+  ✔ done
+✓ built in 2.73s
